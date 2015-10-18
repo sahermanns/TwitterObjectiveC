@@ -15,6 +15,7 @@
 		3E3AACC41BD3E71400455698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3AACC21BD3E71400455698 /* LaunchScreen.storyboard */; };
 		3E3AACCF1BD3E71400455698 /* TwitterV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AACCE1BD3E71400455698 /* TwitterV2Tests.m */; };
 		3E3AACDA1BD3E71400455698 /* TwitterV2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AACD91BD3E71400455698 /* TwitterV2UITests.m */; };
+		3E3AACEC1BD3E7E600455698 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AACEB1BD3E7E600455698 /* Tweet.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3E3AACD51BD3E71400455698 /* TwitterV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3AACD91BD3E71400455698 /* TwitterV2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterV2UITests.m; sourceTree = "<group>"; };
 		3E3AACDB1BD3E71400455698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3AACEA1BD3E7E600455698 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		3E3AACEB1BD3E7E600455698 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +104,10 @@
 		3E3AACB31BD3E71400455698 /* TwitterV2 */ = {
 			isa = PBXGroup;
 			children = (
-				3E3AACB71BD3E71400455698 /* AppDelegate.h */,
-				3E3AACB81BD3E71400455698 /* AppDelegate.m */,
-				3E3AACBA1BD3E71400455698 /* ViewController.h */,
-				3E3AACBB1BD3E71400455698 /* ViewController.m */,
-				3E3AACBD1BD3E71400455698 /* Main.storyboard */,
+				3E3AACE91BD3E76500455698 /* Controller */,
+				3E3AACE81BD3E75C00455698 /* View */,
+				3E3AACE71BD3E75200455698 /* Model */,
 				3E3AACC01BD3E71400455698 /* Assets.xcassets */,
-				3E3AACC21BD3E71400455698 /* LaunchScreen.storyboard */,
-				3E3AACC51BD3E71400455698 /* Info.plist */,
 				3E3AACB41BD3E71400455698 /* Supporting Files */,
 			);
 			path = TwitterV2;
@@ -117,6 +116,10 @@
 		3E3AACB41BD3E71400455698 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E3AACC21BD3E71400455698 /* LaunchScreen.storyboard */,
+				3E3AACC51BD3E71400455698 /* Info.plist */,
+				3E3AACB71BD3E71400455698 /* AppDelegate.h */,
+				3E3AACB81BD3E71400455698 /* AppDelegate.m */,
 				3E3AACB51BD3E71400455698 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +141,32 @@
 				3E3AACDB1BD3E71400455698 /* Info.plist */,
 			);
 			path = TwitterV2UITests;
+			sourceTree = "<group>";
+		};
+		3E3AACE71BD3E75200455698 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E3AACEA1BD3E7E600455698 /* Tweet.h */,
+				3E3AACEB1BD3E7E600455698 /* Tweet.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3E3AACE81BD3E75C00455698 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E3AACBD1BD3E71400455698 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3E3AACE91BD3E76500455698 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3E3AACBA1BD3E71400455698 /* ViewController.h */,
+				3E3AACBB1BD3E71400455698 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +302,7 @@
 				3E3AACBC1BD3E71400455698 /* ViewController.m in Sources */,
 				3E3AACB91BD3E71400455698 /* AppDelegate.m in Sources */,
 				3E3AACB61BD3E71400455698 /* main.m in Sources */,
+				3E3AACEC1BD3E7E600455698 /* Tweet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
