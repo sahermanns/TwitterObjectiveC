@@ -11,4 +11,19 @@
 
 @interface Tweet : NSObject
 
+@property (strong, nonatomic) NSString *text;
+@property (strong, nonatomic) NSString *userName;
+@property (strong, nonatomic) NSString *screenName;
+@property (strong, nonatomic) NSString *location;
+@property (strong, nonatomic) NSString *id;
+@property (strong, nonatomic) NSString *originalText;
+@property (strong, nonatomic) NSString *originalUserName;
+@property (strong, nonatomic) NSString *originalQuote;
+@property (strong, nonatomic) NSString *originalQUserName;
+@property (strong, nonatomic) UIImage *profileImage;
+@property (strong, nonatomic) NSString *backgroundImageURL;
+@property (strong, nonatomic) UIImage *backgroundImage;
+
+
+
 @end
