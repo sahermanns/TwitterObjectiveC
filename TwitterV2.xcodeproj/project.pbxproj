@@ -18,6 +18,8 @@
 		3E3AACEC1BD3E7E600455698 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AACEB1BD3E7E600455698 /* Tweet.m */; settings = {ASSET_TAGS = (); }; };
 		3E3AACF31BD5AEB000455698 /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3AACF21BD5AEB000455698 /* TweetCell.xib */; settings = {ASSET_TAGS = (); }; };
 		3E3AACF61BD5AF6100455698 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AACF51BD5AF6100455698 /* TweetCell.m */; settings = {ASSET_TAGS = (); }; };
+		3E3AACF91BD5B64B00455698 /* TweetJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AACF81BD5B64B00455698 /* TweetJSONParser.m */; settings = {ASSET_TAGS = (); }; };
+		3E3AACFB1BD6875F00455698 /* tweet.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E3AACFA1BD6875F00455698 /* tweet.json */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		3E3AACF21BD5AEB000455698 /* TweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetCell.xib; sourceTree = "<group>"; };
 		3E3AACF41BD5AF6100455698 /* TweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCell.h; sourceTree = "<group>"; };
 		3E3AACF51BD5AF6100455698 /* TweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
+		3E3AACF71BD5B64B00455698 /* TweetJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetJSONParser.h; sourceTree = "<group>"; };
+		3E3AACF81BD5B64B00455698 /* TweetJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetJSONParser.m; sourceTree = "<group>"; };
+		3E3AACFA1BD6875F00455698 /* tweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tweet.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,7 @@
 		3E3AACB41BD3E71400455698 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E3AACFA1BD6875F00455698 /* tweet.json */,
 				3E3AACC21BD3E71400455698 /* LaunchScreen.storyboard */,
 				3E3AACC51BD3E71400455698 /* Info.plist */,
 				3E3AACB71BD3E71400455698 /* AppDelegate.h */,
@@ -151,6 +157,8 @@
 		3E3AACE71BD3E75200455698 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3E3AACF71BD5B64B00455698 /* TweetJSONParser.h */,
+				3E3AACF81BD5B64B00455698 /* TweetJSONParser.m */,
 				3E3AACF41BD5AF6100455698 /* TweetCell.h */,
 				3E3AACF51BD5AF6100455698 /* TweetCell.m */,
 				3E3AACEA1BD3E7E600455698 /* Tweet.h */,
@@ -280,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3AACFB1BD6875F00455698 /* tweet.json in Resources */,
 				3E3AACC41BD3E71400455698 /* LaunchScreen.storyboard in Resources */,
 				3E3AACC11BD3E71400455698 /* Assets.xcassets in Resources */,
 				3E3AACBF1BD3E71400455698 /* Main.storyboard in Resources */,
@@ -308,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3AACF91BD5B64B00455698 /* TweetJSONParser.m in Sources */,
 				3E3AACBC1BD3E71400455698 /* TweetViewController.m in Sources */,
 				3E3AACB91BD3E71400455698 /* AppDelegate.m in Sources */,
 				3E3AACB61BD3E71400455698 /* main.m in Sources */,

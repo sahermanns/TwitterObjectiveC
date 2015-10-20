@@ -20,6 +20,7 @@
 @property (strong, nonatomic) NSString *originalUserName;
 @property (strong, nonatomic) NSString *originalQuote;
 @property (strong, nonatomic) NSString *originalQUserName;
+@property (strong, nonatomic)NSString *profileImageURL;
 @property (strong, nonatomic) UIImage *profileImage;
 @property (strong, nonatomic) NSString *backgroundImageURL;
 @property (strong, nonatomic) UIImage *backgroundImage;
