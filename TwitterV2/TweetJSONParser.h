@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface TweetJSONParser : NSObject
-//+(NSArray *)searchQuestionsResultsFromJSON:(NSDictionary *)jsonInfo;
++(NSArray *)searchTweetResultsFromJSON:(NSDictionary *)jsonInfo;
 @end

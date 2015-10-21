@@ -20,6 +20,8 @@
 		3E3AACF61BD5AF6100455698 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AACF51BD5AF6100455698 /* TweetCell.m */; settings = {ASSET_TAGS = (); }; };
 		3E3AACF91BD5B64B00455698 /* TweetJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AACF81BD5B64B00455698 /* TweetJSONParser.m */; settings = {ASSET_TAGS = (); }; };
 		3E3AACFB1BD6875F00455698 /* tweet.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E3AACFA1BD6875F00455698 /* tweet.json */; settings = {ASSET_TAGS = (); }; };
+		3ED0451C1BD84AE300E78196 /* TwitterService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0451B1BD84AE300E78196 /* TwitterService.m */; settings = {ASSET_TAGS = (); }; };
+		3ED0451F1BD84AFB00E78196 /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0451E1BD84AFB00E78196 /* LoginService.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		3E3AACF71BD5B64B00455698 /* TweetJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetJSONParser.h; sourceTree = "<group>"; };
 		3E3AACF81BD5B64B00455698 /* TweetJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetJSONParser.m; sourceTree = "<group>"; };
 		3E3AACFA1BD6875F00455698 /* tweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tweet.json; sourceTree = "<group>"; };
+		3ED0451A1BD84AE300E78196 /* TwitterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterService.h; sourceTree = "<group>"; };
+		3ED0451B1BD84AE300E78196 /* TwitterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterService.m; sourceTree = "<group>"; };
+		3ED0451D1BD84AFB00E78196 /* LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginService.h; sourceTree = "<group>"; };
+		3ED0451E1BD84AFB00E78196 /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,10 @@
 			children = (
 				3E3AACF71BD5B64B00455698 /* TweetJSONParser.h */,
 				3E3AACF81BD5B64B00455698 /* TweetJSONParser.m */,
+				3ED0451A1BD84AE300E78196 /* TwitterService.h */,
+				3ED0451B1BD84AE300E78196 /* TwitterService.m */,
+				3ED0451D1BD84AFB00E78196 /* LoginService.h */,
+				3ED0451E1BD84AFB00E78196 /* LoginService.m */,
 				3E3AACF41BD5AF6100455698 /* TweetCell.h */,
 				3E3AACF51BD5AF6100455698 /* TweetCell.m */,
 				3E3AACEA1BD3E7E600455698 /* Tweet.h */,
@@ -319,6 +329,8 @@
 			files = (
 				3E3AACF91BD5B64B00455698 /* TweetJSONParser.m in Sources */,
 				3E3AACBC1BD3E71400455698 /* TweetViewController.m in Sources */,
+				3ED0451C1BD84AE300E78196 /* TwitterService.m in Sources */,
+				3ED0451F1BD84AFB00E78196 /* LoginService.m in Sources */,
 				3E3AACB91BD3E71400455698 /* AppDelegate.m in Sources */,
 				3E3AACB61BD3E71400455698 /* main.m in Sources */,
 				3E3AACF61BD5AF6100455698 /* TweetCell.m in Sources */,
@@ -548,6 +560,7 @@
 				3E3AACE01BD3E71400455698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E3AACE11BD3E71400455698 /* Build configuration list for PBXNativeTarget "TwitterV2Tests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +569,7 @@
 				3E3AACE31BD3E71400455698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E3AACE41BD3E71400455698 /* Build configuration list for PBXNativeTarget "TwitterV2UITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +578,7 @@
 				3E3AACE61BD3E71400455698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
